@@ -22,3 +22,16 @@
 	font-size: 4rem;
 	z-index: 2;
 }
+.score {
+	display: flex;
+	width: 30vw;
+	justify-content: space-evenly;
+	position: absolute;
+	top: 12%;
+	z-index: 1;
+}
+.h-count,.r-count{
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 1rem;
+}
