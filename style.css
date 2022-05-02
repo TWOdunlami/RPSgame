@@ -35,3 +35,25 @@
 	font-size: 1.5rem;
 	margin-top: 1rem;
 }
+.moves {
+	font-size: 2rem;
+	font-weight: bold;
+    margin-top: 70px;
+}
+.choices {
+	display: flex;
+	width: 40vw;
+	justify-content: space-evenly;
+	margin-top: 2rem;
+}
+.rock, .paper, .scissor {
+	padding: 0.8rem;
+    margin: 1rem;
+	width: 200px;
+	border-radius: 10px;
+	background: #70a1ff;
+	outline: none;
+	border-color: #70a1ff;
+	border: none;
+	cursor: pointer;
+}
