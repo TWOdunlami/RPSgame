@@ -14,31 +14,32 @@
     <!-- Bootstrap CSS above this line -->
     <script src="https://kit.fontawesome.com/aa28d9b8ca.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
 </head>
 <body>
  <section class="display">
-     <div class="gname">Rock Paper Scissors</div> <!-- Game Title -->
+     <div class="title">Rock Paper Scissors</div> <!-- Game Title -->
      <hr>
      <!-- Score display for human & robot -->
      <div class="score">
-         <div class="humanScore">
+         <div class="playerScore">
              <h2>Human</h2>
-             <p class="h-count count">0</p>
+             <p class="p-count count">0</p>
          </div>
 
-         <div class="robotScore">
+         <div class="computerScore">
             <h2>Robot</h2>
-            <p class="r-count count">0</p>
+            <p class="c-count count">0</p>
         </div>
      </div>
 
      <div class="moves">Pick your move</div>
      <!-- Number of moves left before game ends -->
-     <div class="remaining">Moves Remaining: 5</div>
-     <div class="choices">
-         <button class="rock"><i class="fa-solid fa-hand-back-fist fa-flip"style="--fa-animation-duration: 3s;"></i>Rock</button>
-         <button class="paper"><i class="fa-solid fa-note-sticky fa-flip" style="--fa-animation-duration: 3s;"></i>Paper</button>
-         <button class="scissor"><i class="fa-solid fa-hand-spock fa-flip" style="--fa-animation-duration: 3s;"></i>Scissor</button>
+     <div class="movesleft">Moves Remaining: 5</div>
+     <div class="options">
+         <button class="rock"><i class="fa-solid fa-hand-back-fist"></i>Rock</button>
+         <button class="paper"><i class="fa-solid fa-note-sticky"></i>Paper</button>
+         <button class="scissor"><i class="fa-solid fa-hand-spock"></i>Scissor</button>
      </div>
  </section>   
 <!-- jQuery first, then Popper.js, then Bootstrap JS below this line -->

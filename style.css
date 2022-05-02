@@ -16,7 +16,7 @@
 	align-items: center;
     font-size: 38px;
 }
-.gname {	
+.title {	
     position: absolute;
 	top: 0;
 	font-size: 4rem;
@@ -30,7 +30,7 @@
 	top: 12%;
 	z-index: 1;
 }
-.h-count,.r-count{
+.p-count,.c-count{
 	text-align: center;
 	font-size: 3.5rem;
 	margin-top: 3rem;
@@ -40,11 +40,11 @@
 	font-weight: bold;
     margin-top: 2%;
 }
-.remaining {
+.movesleft {
     font-size: 18px;
     font-weight: bold;
 }
-.choices {
+.options {
 	display: flex;
 	width: 40vw;
 	justify-content: space-evenly;
@@ -60,4 +60,36 @@
 	outline: none;
 	border: none;
 	cursor: pointer;
+}
+/* Reload button style */
+.reload {
+	display: none;
+	margin-top: 2rem;
+	padding: 1rem;
+	background: RED;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.result{
+	margin-top: 20px;
+	font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 612px)
+{
+	.display {
+		text-align: center;
+	}
+	.score {
+		position: absolute;
+		top: 200px;
+		width: 100vw;
+	}
+	.choices {
+		width: 100vw;
+	}
 }
