@@ -32,13 +32,17 @@
 }
 .h-count,.r-count{
 	text-align: center;
-	font-size: 1.5rem;
-	margin-top: 1rem;
+	font-size: 3.5rem;
+	margin-top: 3rem;
 }
 .moves {
 	font-size: 2rem;
 	font-weight: bold;
-    margin-top: 70px;
+    margin-top: 2%;
+}
+.remaining {
+    font-size: 18px;
+    font-weight: bold;
 }
 .choices {
 	display: flex;
@@ -46,14 +50,14 @@
 	justify-content: space-evenly;
 	margin-top: 2rem;
 }
+/* Rock Paper & Scissor buttons*/
 .rock, .paper, .scissor {
-	padding: 0.8rem;
+	padding: 2rem;
     margin: 1rem;
 	width: 200px;
 	border-radius: 10px;
-	background: #70a1ff;
+	background: white;
 	outline: none;
-	border-color: #70a1ff;
 	border: none;
 	cursor: pointer;
 }
