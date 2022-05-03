@@ -81,6 +81,15 @@
 	margin-top: 20px;
 	font-size: 1.2rem;
 }
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: var(--main-color);
+	color: black;
+	text-align: center;
+  }
 
 /* Responsive Design */
 @media screen and (max-width: 612px)
