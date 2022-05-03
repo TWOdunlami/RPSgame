@@ -89,6 +89,11 @@ footer {
 	background-color: var(--main-color);
 	color: black;
 	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  :visited {
+	  color: black;
   }
 
 /* Responsive Design */
@@ -101,6 +106,9 @@ footer {
 		position: absolute;
 		top: 200px;
 		width: 100vw;
+	}
+	.options {
+		margin-top: 200px;
 	}
 	.choices {
 		width: 100vw;
