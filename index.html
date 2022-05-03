@@ -16,35 +16,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
- <section class="display">
-     <div class="title">Rock Paper Scissors</div> <!-- Game Title -->
-     <hr>
-     <!-- Score display for human & robot -->
-     <div class="score">
-         <div class="playerScore">
-             <h2>Human</h2>
-             <p class="p-count count">0</p>
-         </div>
+	<section class="game">
+		<!--Title -->
+		<div class="title">Rock Paper Scissor</div>
+		
+		<!--Display Score of player and computer -->
+		<div class="score">
+			<div class="playerScore">
+				<h2>Player</h2>
+				<p class="p-count count">0</p>
 
-         <div class="computerScore">
-            <h2>Robot</h2>
-            <p class="c-count count">0</p>
-        </div>
-     </div>
+			</div>	
+			<div class="computerScore">
+				<h2>Computer</h2>
+				<p class="c-count count">0</p>
 
-     <div class="moves">Pick your move</div>
-     <!-- Number of moves left before game ends -->
-     <div class="movesleft">Moves Remaining: 5</div>
-     <div class="options">
-         <button class="rock"><i class="fa-solid fa-hand-back-fist"></i>Rock</button>
-         <button class="paper"><i class="fa-solid fa-note-sticky"></i>Paper</button>
-         <button class="scissor"><i class="fa-solid fa-hand-spock"></i>Scissor</button>
-     </div>
+			</div>
+		</div>
+	
+		<div class="move">Choose your move</div>
+		
+		<!--Number of moves left before game ends -->
+		<div class="movesleft">Moves Left: 5 </div>
+		
+		<!--Options available to player to play game -->
+		<div class="options">
+			<button class="rock">Rock</button>
+			<button class="paper">Paper</button>
+			<button class="scissor">Scissors</button>
+		</div>
+		
+		<!--Final result of game -->
+		<div class="result"></div>
+		
+		<!--Reload the game -->
+		<button class="reload"></button>
+
+	</section>
  </section>   
  <script src="main.js"></script>
-<!-- jQuery first, then Popper.js, then Bootstrap JS below this line -->
- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
