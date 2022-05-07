@@ -4,7 +4,7 @@ const game = () => {
 	let moves = 0;
 
 
-	// Function to
+	// Function for choice selection
 	const playGame = () => {
 		const rockBtn = document.querySelector('.rock');
 		const paperBtn = document.querySelector('.paper');
